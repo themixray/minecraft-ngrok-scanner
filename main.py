@@ -6,8 +6,8 @@ import os
 countries = ['','.au','.eu','.ru']
 filterVersion = None
 minimumPlayers = 1
-
 logpath = f"C:\\Users\\{getpass.getuser()}\\servers.log"
+
 if not os.path.exists(logpath): open(logpath,'w').close()
 def log(text):
     print(text)
