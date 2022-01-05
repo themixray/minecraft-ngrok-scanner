@@ -1,11 +1,6 @@
 from mcstatus import MinecraftServer
-import traceback
 import threading
-import colorama
 import getpass
-import logging
-import socket
-import time
 import os
 
 countries = ['','.au','.eu','.ru']
